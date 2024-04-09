@@ -1,0 +1,10 @@
+# Ignoring any README files and . direcotries
+**/README.*
+
+.*/
+DB/
+.dockerignore
+.gitignore
+.*
+Dockerfile
+docker-compose.yml
