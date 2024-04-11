@@ -22,4 +22,4 @@ COPY --from=base /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8
 WORKDIR /usr/src/django_app
 COPY . .
 
-EXPOSE 8000
+EXPOSE 80
