@@ -21,5 +21,6 @@ COPY --from=base /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8
 # Copying project
 WORKDIR /usr/src/django_app
 COPY . .
+RUN python3 manage.py collectstatic
 
 EXPOSE 80
